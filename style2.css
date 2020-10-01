@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family:sans-serif ;
+}
+
+body{
+    background-color: #87cefa;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 350px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+}
+.bns img{
+    width: 125px;
+    margin-bottom: 25px;
+    margin-inline-end: auto ;
+}
+.container h2{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+}
+.container .input_field{
+    margin-bottom: 10px;
+}
+.container .input_field [type="text"],
+.container textarea{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.container textarea{
+    height: 80%;
+    resize: none;
+}
+.radio{
+    display: flex;
+    font-size: 14px;
+}
+.container .radio{
+    padding: 10px;
+}
+.container .btn input[type="submit"]{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #fe8b8e;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+
+}
+.sosmed{
+    display: flex;
+    justify-content: center;
+    border-top:2px solid #fe8b8e ;
+    margin-bottom: 10px;
+}
+.sosmedd{
+    padding: 10px;
+}
+container #error_message{
+    margin-bottom: 50px;
+    padding: 0px;
+    background: #fe8b8e;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+} 
+

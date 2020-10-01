@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binus Relawan Digital (BRD)</title>
+    <link rel="stylesheet" href="style2.css">
+    <script src="scrips.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="bns">
+            <img src="logobinus.png" alt="">
+        </div>
+        <h2>Form Registration</h2>
+
+        <form name="myform" onsubmit="return validation()">
+            <div class="input_field">
+                <input type="text" placeholder="Name" id="name">
+            </div>
+
+            <div class="input_field">
+                <textarea placeholder="Address" id="address"></textarea>
+            </div>
+
+            <div class="input_field">
+                <input type="text" placeholder="Email" id="email">
+            </div>
+
+            <div class="input_field">
+                <input type="text" placeholder="Phone" id="phone">
+            </div>
+
+            <div class="radio">    
+                <input type='radio' onclick="alert('Choosed')" name="r1" value="Mahasiswa">Mahasiswa <br>
+                <input type='radio' onclick="alert('Choosed')" name="r1" value="Dosen">Dosen <br>
+                <input type='radio' onclick="alert('Choosed')" name="r1" value="Staff Binus">Staff Binus 
+            </div>
+
+            <div class="sosmed">
+                <div class="sosmedd" onclick="alert('Choosed')"> <img src="fb.png" width="30px" height="30px" alt=""></div>
+                <div class="sosmedd" onclick="alert('Choosed')"> <img src="ig.png" width="30px" height="30px" alt=""></div>
+                <div class="sosmedd" onclick="alert('Choosed')"> <img src="youtube.png" width="30px" height="30px" alt=""></div>
+                <div class="sosmedd" onclick="alert('Choosed')"> <img src="blogger.png" width="30px" height="30px" alt=""></div>
+            </div> 
+            
+            <div class="input_field">
+                <input type="text" placeholder="Username ID" id="usernameid">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Register">
+            </div>    
+    </div>
+</body>
+</html>
